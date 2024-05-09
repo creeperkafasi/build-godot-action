@@ -2,6 +2,7 @@ name: Test Action 4.x
 on:
   push:
     branches: [ 'master', 'main', 'prod', 'production' ]
+  workflow_run:
 
 jobs:
   TestAction:
